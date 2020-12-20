@@ -1,0 +1,36 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.candleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.candle {
+  height: 15rem;
+  margin: 1rem;
+  border: white;
+}
+
+.candlebutton {
+  border: none;
+  background-color: white;
+}
+.candlebutton:focus {
+  outline-color: white;
+}
+
+.candletop {
+  margin-top: 0.45rem;
+}
+
+.candlestick {
+  padding-top: 3rem;
+  background-color: purple;
+  color: white;
+  width: 2rem;
+  height: 8rem;
+  border-radius: 0.3rem;
+}
