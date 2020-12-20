@@ -1,25 +1,5 @@
-import React, { useState } from "react";
 import "./styles.css";
-
-export const Candle = ({ description }) => {
-  const [light, setLight] = useState(false);
-  const toggleLight = () => setLight(!light);
-
-  return (
-    <div className="candle">
-      <button onClick={toggleLight} className="candlebutton">
-        {light ? (
-          <span role="img" aria-label="fireemoji">
-            🔥{" "}
-          </span>
-        ) : (
-          <div className="candletop"> ⎮ </div>
-        )}
-        <div className="candlestick"> {description} </div>
-      </button>
-    </div>
-  );
-};
+import { Candle } from "./Candle";
 
 export const App = () => {
   return (
@@ -35,4 +15,3 @@ export const App = () => {
     </div>
   );
 };
-
