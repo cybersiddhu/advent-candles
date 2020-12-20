@@ -1,10 +1,13 @@
 import "./styles.css";
+import React from "react";
 import { Candle } from "./Candle";
 
 export const App = () => {
   return (
     <div className="App">
-      <h1>✨ Advent Candles ✨</h1>
+      <span role="img" aria-label="sparkle">
+        ✨ Advent Candles ✨
+      </span>
       <div className="candleContainer">
         <Candle description={"1"} />
         <Candle description={"2"} />
